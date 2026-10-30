@@ -1,0 +1,16 @@
+# Copy to terraform.tfvars (git-ignored) and fill in.
+aws_profile           = "personal"
+domain                = "qhutch.click"
+hosted_zone_id        = "Z020188214CB7TDW7R5F4"
+vercel_project_prefix = "poc-site-"
+
+# "-" + your Vercel team slug, taken from a real preview URL, e.g.
+# poc-site-git-feat-alpha-quincys-projects.vercel.app -> "-quincys-projects"
+vercel_slug_suffix = "-quincys-projects"
+
+# Only needed if Vercel Deployment Protection stays on for previews.
+# vercel_bypass_secret = ""
+
+# Optional free spend alert.
+# budget_alert_email = "you@example.com"
+# budget_limit_usd   = 1

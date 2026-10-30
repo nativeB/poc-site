@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.vercel/
+.env*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+infra/.build/
+crash.log
